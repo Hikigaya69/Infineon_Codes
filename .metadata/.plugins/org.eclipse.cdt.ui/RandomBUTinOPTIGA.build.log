@@ -1,0 +1,64 @@
+09:41:35 **** Incremental Build of configuration Debug for project RandomBUTinOPTIGA ****
+"D:\\Infineon\\ModusToolbox\\tools_3.3\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=D:/Infineon/ModusToolbox/tools_3.3 CY_IDE_BT_TOOLS_DIR= -j16 --output-sync build_proj 
+Tools Directory: D:/Infineon/ModusToolbox/tools_3.3
+Searching installed tools in progress...
+Searching installed tools complete
+Initializing build: mtb-example-empty-app Debug APP_CYSBSYSKIT-DEV-01 GCC_ARM
+Toolchain validation: PASS
+
+Prebuild operations complete
+
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+
+Tools Directory: D:/Infineon/ModusToolbox/tools_3.3
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Building 368 file(s)
+Compiling main.c -DCOMPONENT_43012 -DCOMPONENT_APP_CYSBSYSKIT_DEV_01 -DCOMPONENT_CAT1 -DCOMPONENT_CAT1A -DCOMPONENT_CM0P_SLEEP -DCOMPONENT_CM4 -DCOMPONENT_CM4_0 -DCOMPONENT_CYSBSYS_RP01 -DCOMPONENT_Debug -DCOMPONENT_GCC_ARM -DCOMPONENT_HCI_UART -DCOMPONENT_MW_BT_FW_IFX_CYW43012 -DCOMPONENT_MW_CAT1CM0P -DCOMPONENT_MW_CMSIS -DCOMPONENT_MW_CORE_LIB -DCOMPONENT_MW_CORE_MAKE -DCOMPONENT_MW_MTB_HAL_CAT1 -DCOMPONENT_MW_MTB_PDL_CAT1 -DCOMPONENT_MW_OPTIGA_TRUST_M -DCOMPONENT_MW_RECIPE_MAKE_CAT1A -DCOMPONENT_MW_RETARGET_IO -DCOMPONENT_PSOC6_02 -DCOMPONENT_SOFTFP -DCOMPONENT_WIFI_INTERFACE_SDIO -DCORE_NAME_CM4_0=1 -DCY8C624AFNI_S2D43 -DCY_APPNAME_mtb_example_empty_app -DCY_SUPPORTS_DEVICE_VALIDATION -DCY_TARGET_BOARD=APP_CYSBSYSKIT_DEV_01 -DCY_USING_HAL -DDEBUG -DMBEDTLS_USER_CONFIG_FILE='"mbedtls_user_config.h"' -DOPTIGA_LIB_EXTERNAL='"optiga_user_config.h"' -DTARGET_APP_CYSBSYSKIT_DEV_01  -I. -Ibsps/TARGET_APP_CYSBSYSKIT-DEV-01 -Ibsps -Ibsps/TARGET_APP_CYSBSYSKIT-DEV-01/bluetooth -Ibsps/TARGET_APP_CYSBSYSKIT-DEV-01/config/GeneratedSource -Ibsps/TARGET_APP_CYSBSYSKIT-DEV-01/config -IPSOC_OPTIGA_PAL -I../mtb_shared/optiga-trust-m/release-v5.3.0/config -I../mtb_shared/optiga-trust-m/release-v5.3.0 -I../mtb_shared/optiga-trust-m/release-v5.3.0/examples/optiga/include -I../mtb_shared/optiga-trust-m/release-v5.3.0/examples/optiga -I../mtb_shared/optiga-trust-m/release-v5.3.0/examples -I../mtb_shared/optiga-trust-m/release-v5.3.0/examples/optiga/protected_update_data_set -I../mtb_shared/optiga-trust-m/release-v5.3.0/examples/utilities/include -I../mtb_shared/optiga-trust-m/release-v5.3.0/examples/utilities -I../mtb_shared/optiga-trust-m/release-v5.3.0/external/mbedtls/include/mbedtls -I../mtb_shared/optiga-trust-m/release-v5.3.0/external/mbedtls/include -I../mtb_shared/optiga-trust-m/release-v5.3.0/external/mbedtls -I../mtb_shared/optiga-trust-m/release-v5.3.0/external -I../mtb_shared/optiga-trust-m/release-v5.3.0/external/mbedtls/include/psa -I../mtb_shared/optiga-trust-m/release-v5.3.0/external/mbedtls/library -I../mtb_shared/optiga-trust-m/release-v5.3.0/include -I../mtb_shared/optiga-trust-m/release-v5.3.0/include/cmd -I../mtb_shared/optiga-trust-m/release-v5.3.0/include/common -I../mtb_shared/optiga-trust-m/release-v5.3.0/include/comms -I../mtb_shared/optiga-trust-m/release-v5.3.0/include/ifx_i2c -I../mtb_shared/optiga-trust-m/release-v5.3.0/include/pal -I../mtb_shared/retarget-io/release-v1.7.0/include -I../mtb_shared/retarget-io/release-v1.7.0 -I../mtb_shared/cat1cm0p/release-v1.7.0/COMPONENT_CAT1A -I../mtb_shared/cat1cm0p/release-v1.7.0 -I../mtb_shared/cmsis/release-v5.8.1/Core/Include -I../mtb_shared/cmsis/release-v5.8.1/Core -I../mtb_shared/cmsis/release-v5.8.1 -I../mtb_shared/core-lib/release-v1.4.3/include -I../mtb_shared/core-lib/release-v1.4.3 -I../mtb_shared/mtb-hal-cat1/release-v2.6.1/COMPONENT_CAT1A/include/pin_packages -I../mtb_shared/mtb-hal-cat1/release-v2.6.1/COMPONENT_CAT1A/include -I../mtb_shared/mtb-hal-cat1/release-v2.6.1/COMPONENT_CAT1A -I../mtb_shared/mtb-hal-cat1/release-v2.6.1 -I../mtb_shared/mtb-hal-cat1/release-v2.6.1/COMPONENT_CAT1A/include/triggers -I../mtb_shared/mtb-hal-cat1/release-v2.6.1/include -I../mtb_shared/mtb-hal-cat1/release-v2.6.1/include_pvt -I../mtb_shared/mtb-hal-cat1/release-v2.6.1/source -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0/devices/COMPONENT_CAT1A/include -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0/devices/COMPONENT_CAT1A -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0/devices -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0 -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0/devices/COMPONENT_CAT1A/include/ip -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0/drivers/include -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0/drivers -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0/drivers/third_party/ethernet/include -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0/drivers/third_party/ethernet -I../mtb_shared/mtb-pdl-cat1/release-v3.13.0/drivers/third_party 
+D:/Infineon/workspace/RandomBUTinOPTIGA/main.c: In function 'main':
+D:/Infineon/workspace/RandomBUTinOPTIGA/main.c:167:31: warning: unused variable 'data2' [-Wunused-variable]
+  167 |         uint8_t data1[10]={0},data2[10]={0};
+      |                               ^~~~~
+D:/Infineon/workspace/RandomBUTinOPTIGA/main.c:167:17: warning: unused variable 'data1' [-Wunused-variable]
+  167 |         uint8_t data1[10]={0},data2[10]={0};
+      |                 ^~~~~
+    Linking output file mtb-example-empty-app.elf
+D:/Infineon/ModusToolbox/tools_3.3/gcc/bin/arm-none-eabi-objcopy -O ihex D:/Infineon/workspace/RandomBUTinOPTIGA/build/APP_CYSBSYSKIT-DEV-01/Debug/mtb-example-empty-app.elf D:/Infineon/workspace/RandomBUTinOPTIGA/build/APP_CYSBSYSKIT-DEV-01/Debug/mtb-example-empty-app.hex
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C624AFNI-S2D43 GCC_ARM
+
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .cy_m0p_image        |  0x10000000   |  6352       | 
+  | .text                |  0x10002000   |  63472      | 
+  | .ARM.exidx           |  0x100117f0   |  8          | 
+  | .copy.table          |  0x100117f8   |  24         | 
+  | .zero.table          |  0x10011810   |  8          | 
+  | .data                |  0x080022e0   |  2744       | 
+  | .cy_sharedmem        |  0x08002d98   |  8          | 
+  | .noinit              |  0x08002da0   |  228        | 
+  | .bss                 |  0x08002e84   |  4072       | 
+  | .heap                |  0x08003e70   |  1026448    | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          2097152    
+  Total Internal Flash (Utilized)           74456      
+
+
+09:41:38 Build Finished. 0 errors, 2 warnings. (took 2s.645ms)
+
