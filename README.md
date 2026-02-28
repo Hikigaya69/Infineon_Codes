@@ -1,2 +1,2 @@
 # Infineon_Codes
-God knows whether its correct or not
+God knows Whethe its correct or not
